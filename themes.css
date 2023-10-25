@@ -1,0 +1,9 @@
+ul#second li::before {
+    content: '•  '
+}
+ul#second li {
+    display: flex;
+    align-items: baseline;
+    column-gap: 5px;
+    margin-bottom: 10px;
+}

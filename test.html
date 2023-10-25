@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжная полка произведений К.Г. Паустовского</title>
+    <link rel="stylesheet" href="./text.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./components.css">
+    <link rel="stylesheet" href="./themes.css">
+    <link rel="stylesheet" href="./test.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div style="display: none;"  class="popup_bg">
+        <div class="popup">
+            <p class="no">Ваш результат:</p>
+            <h5>Решено верно: <b id="good">9</b>/10</h5>
+            <h5 style="display: none;" id="last">Ошиблись в вопросах: <b></b></h5>
+            <div class="buttons">
+                <a id="first" href="index.html">На главную</a>
+                <a href="test.html" onclick="document.reload()">Еще раз</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="wrapper">
+        <div id="container">
+            <nav>
+                <ul>
+                    <li><a id="lvl1" href="index.html">Главная</a>
+                        <ul><li><a href="index.html">Главная</a></li>
+                            <li><a href="i_choose.html">Я выбираю!</a></li></ul>
+                    </li>
+                    <li><a id="lvl1" href="#">О Паустовском</a>
+                    <!-- First Tier Drop Down -->
+                    <ul>
+                        <li><a href="biography.html">Биография</a></li>
+                        <li><a href="family.html">Семья</a></li>
+                        <li><a href="gallery.html">Фотогалерея</a></li>
+                        <li><a href="museum.html">Дом-музей Паустовского в Тарусе</a></li>
+                    </ul>        
+                    </li>
+                    <li><a id="lvl1" href="toread.html">Что почитать?</a>
+                    </li>
+                    <li><a id="lvl1" href="citates.html">Цитаты</a></li>
+                    <li><a id="lvl1" href="ped.html">Педагогическая мастерская</a></li>
+                    <li><a id="lvl1" href="publishers.html">Издатели</a>
+                    </li>
+                </ul>
+            </nav>
+          
+        </div>
+    </div>
+    <div class="container">
+        <form id="form" action="./action.php">
+            <h1><b>Викторина по произведению К.Г.Паустовского <br> "Теплый хлеб"</b></h1>
+            <input required class="name1" name="name" type="text" placeholder="ФИ учащегося">
+            <div class="test-item">
+                <div class="number">
+                    <p class="no">1</p>
+                </div>
+                <div class="question">
+                    <p class="no">Какой масти был конь?</p>
+                    <input name="q1" type="text" placeholder="Ваш ответ">
+                </div>
+            </div>
+            <div class="test-item">
+                <div class="number">
+                    <p class="no">2</p>
+                </div>
+                <div class="question">
+                    <p class="no">Кто взял себе коня?</p>
+                    <input name="q2" type="text" placeholder="Ваш ответ">
+                </div>
+            </div>
+            <div class="test-item">
+                <div class="number">
+                    <p class="no">3</p>
+                </div>
+                <div class="question">
+                    <p class="no">Какое прозвище имел Филька?</p>
+                    <input name="q3" type="text" placeholder="Ваш ответ">
+                </div>
+            </div>
+            <div class="test-item">
+                <div class="number">
+                    <p class="no">4</p>
+                </div>
+                <div class="question">
+                    <p class="no">Кого обидели люди в прошлый раз?</p>
+                    <input name="q4" type="text" placeholder="Ваш ответ">
+                </div>
+            </div>
+            <div class="test-item">
+                <div class="number">
+                    <p class="no">5</p>
+                </div>
+                <div class="question">
+                    <p class="no">Кто подслушал разговор Фильки и мельника?</p>
+                    <input name="q5" type="text" placeholder="Ваш ответ">
+                </div>
+            </div>
+            <div class="test-item">
+                <div class="number">
+                    <p class="no">6</p>
+                </div>
+                <div class="question">
+                    <p class="no">Сколько лет назад был такой же мороз? (только число)</p>
+                    <input name="q6" type="text" placeholder="Ваш ответ">
+                </div>
+            </div>
+            <div class="test-item">
+                <div class="number">
+                    <p class="no">7</p>
+                </div>
+                <div class="question">
+                    <p class="no">Что делали ребята весь следующий день?</p>
+                    <input name="q7" type="text" placeholder="Ваш ответ">
+                </div>
+            </div>
+            <div class="test-item">
+                <div class="number">
+                    <p class="no">8</p>
+                </div>
+                <div class="question">
+                    <p class="no">Куда послала бабка Фильку в поисках совета?</p>
+                    <input name="q8" type="text" placeholder="Ваш ответ">
+                </div>
+            </div>
+            <div class="test-item">
+                <div class="number">
+                    <p class="no">9</p>
+                </div>
+                <div class="question">
+                    <p class="no">Где командир оставил раненого коня?</p>
+                    <input name="q9" type="text" placeholder="Ваш ответ">
+                </div>
+            </div>
+            <div class="test-item">
+                <div class="number">
+                    <p class="no">10</p>
+                </div>
+                <div class="question">
+                    <p class="no">Как звали главного героя произведения?</p>
+                    <input name="q10" type="text" placeholder="Ваш ответ">
+                </div>
+            </div>
+            <button type="submit" class="confirm">
+                <p class="no">Отправить на проверку</p>
+            </button>
+        </form>
+    </div>
+    <script src="test.js"></script>
+</body>    

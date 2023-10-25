@@ -1,0 +1,11 @@
+.slider {
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+    margin: 40px auto;
+}
+#arrow {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}

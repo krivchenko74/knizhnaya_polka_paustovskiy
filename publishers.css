@@ -1,0 +1,28 @@
+.publisher {
+    display: flex;
+    column-gap: 10px;
+    background-color: #6F7666;
+    border: 1px solid #282B24;
+    width: fit-content;
+    border-radius: 40px;
+    width: 1020px;
+    margin-bottom: 40px;
+}
+.publisher img {
+    border-radius: 40px;
+}
+.right-side {
+    padding: 40px 30px;
+}
+.publisher h1 {
+    color: #fff;
+}
+h4 {
+    font-size: 16px;
+    color: #fff;
+    line-height: 150%;
+}
+p {
+    color: #fff;
+    margin-top: 20px;
+}
