@@ -1,0 +1,10 @@
+.container {
+    flex-direction: column;
+}
+
+img{
+    margin: 40px auto;
+    height: 404px;
+    width: 539px;
+
+}

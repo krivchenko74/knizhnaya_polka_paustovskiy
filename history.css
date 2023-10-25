@@ -1,0 +1,11 @@
+.container {
+    flex-direction: column;
+}
+.content {
+    display: flex;
+    column-gap: 40px;
+}
+.content img{
+    border: 1px solid #000;
+    border-radius: 40px;
+}
