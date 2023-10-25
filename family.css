@@ -1,0 +1,23 @@
+p {
+    margin-bottom: 20px;
+}
+img.text {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+a.link {
+    font-size: 20px;
+    color: #6F7666;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+a.link::after {
+    content: ' →';
+}
+.test-item {
+    padding: 30px;
+    border: 1px solid #000;
+    border-radius: 40px;
+    width: fit-content;
+    padding-right: 50px;
+}

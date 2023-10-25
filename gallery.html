@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжная полка произведений К.Г. Паустовского</title>
+    <link rel="stylesheet" href="./text.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./gallery.css">
+    <link rel="stylesheet" href="./components.css">
+    <link rel="stylesheet" href="./themes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="container">
+            <nav>
+                <ul>
+                    <li><a id="lvl1" href="index.html">Главная</a>
+                        <ul><li><a href="index.html">Главная</a></li>
+                            <li><a href="i_choose.html">Я выбираю!</a></li></ul>
+                    </li>
+                    <li><a id="lvl1" href="#">О Паустовском</a>
+                    <!-- First Tier Drop Down -->
+                    <ul>
+                        <li><a href="biography.html">Биография</a></li>
+                        <li><a href="family.html">Семья</a></li>
+                        <li><a href="gallery.html">Фотогалерея</a></li>
+                        <li><a href="museum.html">Дом-музей Паустовского в Тарусе</a></li>
+                    </ul>        
+                    </li>
+                    <li><a id="lvl1" href="toread.html">Что почитать?</a>
+                    </li>
+                    <li><a id="lvl1" href="citates.html">Цитаты</a></li>
+                    <li><a id="lvl1" href="ped.html">Педагогическая мастерская</a></li>
+                    <li><a id="lvl1" href="publishers.html">Издатели</a>
+                    </li>
+                </ul>
+            </nav>
+          
+        </div>
+    </div>
+    <div class="container">
+        <h1><b>Фотогалерея</b></h1>
+        <div class="slider">
+            <img id="arrow" class="left" src="./Arrow-circle-left (左-箭头).png" alt="">
+            <div class="center">
+                <img id="main" src="image 18.png" alt="">
+                <p class="no" id="desc" style="margin-top: 10px;">К.Г. Паустовский на Южном фронте. 1941 г.</p>
+            </div>
+            <img id="arrow" class="right" style="transform: rotate(180deg);" src="./Arrow-circle-left (左-箭头).png" alt="">
+        </div>
+        <script src="gallery.js"></script>
+    </div>
+</body>    
