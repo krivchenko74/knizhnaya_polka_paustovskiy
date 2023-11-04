@@ -15,8 +15,9 @@
 .today-book #bg {
     position: absolute;
     width: 100%;
-    top: 50%;
+    bottom: 0%;
     left: 0%;
+    height: 50%;
     z-index: 0;
     border-radius: 40px;
 }
@@ -50,4 +51,10 @@
 }
 .item:hover a {
     text-decoration: underline;
+}
+
+@media (max-width: 1160px) {
+    .options {
+        top: 55%;
+    }
 }
