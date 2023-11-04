@@ -4,6 +4,8 @@
 .row {
     display: flex;
     column-gap: 40px;
+    flex-wrap: wrap;
+    row-gap: 150px;
 }
 .row-item p {
     font-size: 16px;
