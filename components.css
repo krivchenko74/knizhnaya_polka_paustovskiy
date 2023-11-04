@@ -139,7 +139,17 @@ p.no {
 	width: 635px;
 } */
 @media(max-width: 1440px) {
-	.container {
+	body {
+		padding: 0px 50px;
+	}
+	.container, #container {
 		width: 100%;
+	}
+	nav a#lvl1, a {
+		font-size: 16px;
+	}
+	nav ul ul {
+		
+		top: 30px; /* the height of the main nav */
 	}
 }
