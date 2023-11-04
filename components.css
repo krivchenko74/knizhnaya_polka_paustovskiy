@@ -153,3 +153,8 @@ p.no {
 		top: 30px; /* the height of the main nav */
 	}
 }
+@media (max-width: 1270px) {
+	nav a#lvl1, a {
+		font-size: 12px;
+	}
+}
