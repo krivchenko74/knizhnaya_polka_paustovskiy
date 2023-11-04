@@ -3,3 +3,8 @@ ul#second li {
     align-items: baseline;
     margin-bottom: 10px;
 }
+.gallery {
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
