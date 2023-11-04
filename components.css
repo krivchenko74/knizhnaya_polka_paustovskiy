@@ -157,4 +157,7 @@ p.no {
 	nav a#lvl1, a {
 		font-size: 12px;
 	}
+	nav ul li {
+		margin-right: 10px;
+	}
 }
